@@ -289,4 +289,5 @@ $RECYCLE.BIN/
 
 cypress/screenshots/
 cypress/videos/
-back-end/models/connection.js
+back-end/src/models/connection.js
+back-end/.env
