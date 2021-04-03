@@ -11,18 +11,18 @@ This project requires a MySQL DB named `Trybeer`. There is a seeder.sql file in 
 After that, run `npm run start:watch` from inside the back-end folder and `npm start` from inside the front-end folder. This should get the application up and running in the browser.
 
 The project uses environmental variables in order to connect to the MySQL database. You may either hard code your MySQL credentials directly in the connection.js file inside `back-end \ src \ models` or create a .env file inside the `back-end` folder and fill the following information with your MySQL credentials:
-`MYSQL_USER=root
+```MYSQL_USER=root
 MYSQL_PASSWORD=''
-HOSTNAME=localhost`
+HOSTNAME=localhost```
 
 Esse projeto requer um banco de dados MySQL chamado `Trybeer`. Existe um arquivo seeder.sql na raíz do projeto que deverá ser executado para popular o banco de dados. Você pode copiar o seu conteúdo e colar no MySQL Workbench para criar o banco de dados e suas tabelas.
 
 Depois disso, execute `npm run start:watch` de dentro da pasta back-end e `npm start` de dentro da pasta front-end. Isso fará a aplicação rodar no navegador.
 
 O projeto utiliza variáveis de ambiente para se conectar ao banco de dados MySQL. Você pode colocar suas credenciais MySQL diretamente no arquivo connection.js dentro de `back-end \ src \ models` ou criar um arquivo .env dentro da pasta `back-end` e preencher as seguintes variáveis com suas credenciais MySQL:
-`MYSQL_USER=root
+```MYSQL_USER=root
 MYSQL_PASSWORD=''
-HOSTNAME=localhost`
+HOSTNAME=localhost```
 
 # Habilidades desenvolvidas nesse projeto
 
